@@ -1,0 +1,207 @@
+{
+  "config": {
+    "url": "https://youtube.googleapis.com/youtube/v3/videos?part=contentDetails%2Cid%2CliveStreamingDetails%2Clocalizations%2Cplayer%2CrecordingDetails%2Csnippet%2Cstatistics%2Cstatus%2CtopicDetails&id=c0aD8K5xY2o&key=AIzaSyCLyYGeWMxoG8fxBpRUfqJ73CdCWThE-Zc",
+    "method": "GET",
+    "userAgentDirectives": [
+      {
+        "product": "google-api-nodejs-client",
+        "version": "6.0.3",
+        "comment": "gzip"
+      }
+    ],
+    "headers": {
+      "x-goog-api-client": "gdcl/6.0.3 gl-node/16.13.2 auth/8.5.1",
+      "Accept-Encoding": "gzip",
+      "User-Agent": "google-api-nodejs-client/6.0.3 (gzip)",
+      "Accept": "application/json"
+    },
+    "params": {
+      "part": "contentDetails,id,liveStreamingDetails,localizations,player,recordingDetails,snippet,statistics,status,topicDetails",
+      "id": "c0aD8K5xY2o",
+      "key": "AIzaSyCLyYGeWMxoG8fxBpRUfqJ73CdCWThE-Zc"
+    },
+    "retry": true,
+    "responseType": "json"
+  },
+  "data": {
+    "kind": "youtube#videoListResponse",
+    "etag": "Z-EqMFR7IqWR9QvZ3Rvmio3qaaU",
+    "items": [
+      {
+        "kind": "youtube#video",
+        "etag": "lKD3ztmVb1O8LpxKFrsXEMKp--A",
+        "id": "c0aD8K5xY2o",
+        "snippet": {
+          "publishedAt": "2022-09-17T12:00:18Z",
+          "channelId": "UC0wNSTMWIL3qaorLx0jie6A",
+          "title": "《食戟之靈 神之皿》#10 (繁中字幕 | 日語原聲)【Ani-One Asia】",
+          "description": "🍳《食戟之靈 神之皿》登陸Ani-One Asia YouTube！\n自從薙切薊就任「遠月茶寮料理學園」的新總帥之後，學生的自由受到了抑制。為了擺脫困境，創真等人組成了反叛者隊，和新的遠月十傑展開了聯隊食戟，並在初戰中獲得了勝利！現在，第二輪對戰即將拉開帷幕…！ \n\n🍚《食戟之靈》播放清單：\n• 第二季：https://www.youtube.com/playlist?list=PLxSscENEp7JjC6Atr2SaYeVJyC1kkzQOa\n• 第三季：https://www.youtube.com/playlist?list=PLxSscENEp7JhUcNUJC6NNywV0J5bnQ9Ew\n• 第四季：https://www.youtube.com/playlist?list=PLxSscENEp7JgoLSAuimgmaCHHlUaua69k\n\n🌎播出地區：\n孟加拉國、不丹、文萊、柬埔寨、斐濟、香港、印度、印度尼西亞、哈薩克斯坦、吉爾吉斯斯坦、老撾、澳門、馬來西亞、馬爾代夫、馬紹爾群島、密克羅尼西亞、蒙古、緬甸、瑙魯、尼泊爾、新喀裡多尼亞、巴基斯坦、帕勞、巴布亞 新幾內亞、菲律賓、薩摩亞、新加坡、所羅門群島、斯里蘭卡、台灣、泰國、東帝汶、湯加、圖瓦盧、瓦努阿圖、越南\n\n*本日語原聲動畫提供多語言CC字幕以供選擇。\n=========================================\n📢Support Ani-One Asia📢\n🖥 YouTube: https://www.youtube.com/AniOneAsia\n🖼 Instagram: https://www.instagram.com/anioneasia/\n🌏 Ani-One Asia: https://www.facebook.com/ani1Asia\n🌏 Ani-One Taiwan: https://www.facebook.com/ani1TW/\n🌏 Ani-One (中文): https://www.facebook.com/ani1anime\n\n#AniOne #FoodWars #食戟之靈 #ShokugekiNoSoma #食戟のソーマ #餐之皿 #Season4 #第四季 #料理 #food #校園 #school #動漫 #Anime",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/c0aD8K5xY2o/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/c0aD8K5xY2o/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/c0aD8K5xY2o/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/c0aD8K5xY2o/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/c0aD8K5xY2o/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Ani-One Asia",
+          "tags": [
+            "ani-one",
+            "anime",
+            "animation",
+            "日本動漫",
+            "日本",
+            "日語原聲",
+            "日語",
+            "繁體中文",
+            "中文",
+            "中文字幕",
+            "線上看",
+            "動漫"
+          ],
+          "categoryId": "1",
+          "liveBroadcastContent": "none",
+          "defaultLanguage": "zh-Hant",
+          "localized": {
+            "title": "《食戟之靈 神之皿》#10 (繁中字幕 | 日語原聲)【Ani-One Asia】",
+            "description": "🍳《食戟之靈 神之皿》登陸Ani-One Asia YouTube！\n自從薙切薊就任「遠月茶寮料理學園」的新總帥之後，學生的自由受到了抑制。為了擺脫困境，創真等人組成了反叛者隊，和新的遠月十傑展開了聯隊食戟，並在初戰中獲得了勝利！現在，第二輪對戰即將拉開帷幕…！ \n\n🍚《食戟之靈》播放清單：\n• 第二季：https://www.youtube.com/playlist?list=PLxSscENEp7JjC6Atr2SaYeVJyC1kkzQOa\n• 第三季：https://www.youtube.com/playlist?list=PLxSscENEp7JhUcNUJC6NNywV0J5bnQ9Ew\n• 第四季：https://www.youtube.com/playlist?list=PLxSscENEp7JgoLSAuimgmaCHHlUaua69k\n\n🌎播出地區：\n孟加拉國、不丹、文萊、柬埔寨、斐濟、香港、印度、印度尼西亞、哈薩克斯坦、吉爾吉斯斯坦、老撾、澳門、馬來西亞、馬爾代夫、馬紹爾群島、密克羅尼西亞、蒙古、緬甸、瑙魯、尼泊爾、新喀裡多尼亞、巴基斯坦、帕勞、巴布亞 新幾內亞、菲律賓、薩摩亞、新加坡、所羅門群島、斯里蘭卡、台灣、泰國、東帝汶、湯加、圖瓦盧、瓦努阿圖、越南\n\n*本日語原聲動畫提供多語言CC字幕以供選擇。\n=========================================\n📢Support Ani-One Asia📢\n🖥 YouTube: https://www.youtube.com/AniOneAsia\n🖼 Instagram: https://www.instagram.com/anioneasia/\n🌏 Ani-One Asia: https://www.facebook.com/ani1Asia\n🌏 Ani-One Taiwan: https://www.facebook.com/ani1TW/\n🌏 Ani-One (中文): https://www.facebook.com/ani1anime\n\n#AniOne #FoodWars #食戟之靈 #ShokugekiNoSoma #食戟のソーマ #餐之皿 #Season4 #第四季 #料理 #food #校園 #school #動漫 #Anime"
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT23M40S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "true",
+          "licensedContent": true,
+          "regionRestriction": {
+            "allowed": [
+              "BD",
+              "BN",
+              "BT",
+              "FJ",
+              "FM",
+              "HK",
+              "ID",
+              "IN",
+              "KG",
+              "KH",
+              "KZ",
+              "LA",
+              "LK",
+              "MH",
+              "MM",
+              "MN",
+              "MO",
+              "MV",
+              "MY",
+              "NC",
+              "NP",
+              "NR",
+              "PG",
+              "PH",
+              "PK",
+              "PW",
+              "SB",
+              "SG",
+              "TH",
+              "TL",
+              "TO",
+              "TV",
+              "TW",
+              "VN",
+              "VU",
+              "WS"
+            ]
+          },
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "29902",
+          "likeCount": "741",
+          "favoriteCount": "0",
+          "commentCount": "22"
+        },
+        "player": {
+          "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/c0aD8K5xY2o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        },
+        "topicDetails": {
+          "topicCategories": [
+            "https://en.wikipedia.org/wiki/Entertainment",
+            "https://en.wikipedia.org/wiki/Film"
+          ]
+        },
+        "recordingDetails": {},
+        "localizations": {
+          "id": {
+            "title": "《Perang Makanan! Shokugeki no Soma – Piring Keempat》#10 (ID sub | JP dub)【Ani-One Asia】",
+            "description": "🍳《Perang Makanan! Shokugeki no Soma – Piring Keempat》hadir di Youtube Channel Ani-One Asia! \nSejak Azami Nakiri menjadi direktur baru Institut Totsuki, para siswa tidak lagi diperbolehkan memasak dengan bebas, Soma dan teman-temannya dicap sebagai pemberontak. Untuk mengatasi situasi ini, mereka menantang anggota Dewan yang baru dengan Regiment du Cuisine! Pertarungan ke-2 akan segera dimulai…!\n\n🍚《Food Wars! Shokugeki no Soma》playlists：\n• S2：httpswww.youtube.complaylistlist=PLxSscENEp7JjC6Atr2SaYeVJyC1kkzQOa\n• S3：httpswww.youtube.complaylistlist=PLxSscENEp7JhUcNUJC6NNywV0J5bnQ9Ew\n• S4：httpswww.youtube.complaylistlist=PLxSscENEp7JgoLSAuimgmaCHHlUaua69k\n\n🌎Teritori Streaming\nBangladesh, Bhutan, Brunei, Cambodia, Fiji, Hong Kong, India, Indonesia, Kazakhstan, Kyrgyzstan, Laos, Macau, Malaysia, Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Nepal, New Caledonia, Pakistan, Palau, Papua New Guinea, Philippines, Samoa, Singapore, Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu, Vanuatu, Vietnam.\n\n** Dubbing Bahasa Jepang dengan subtitle CC tersedia.\n=========================================\n📢Support Ani-One Asia📢\n🖥 YouTube: https://www.youtube.com/AniOneAsia\n🖼 Instagram: https://www.instagram.com/anioneasia/\n🌏 Ani-One Asia: https://www.facebook.com/ani1Asia\n🌏 Ani-One Taiwan: https://www.facebook.com/ani1TW/\n🌏 Ani-One (中文): https://www.facebook.com/ani1anime\n\n#AniOne #FoodWars #食戟之靈 #ShokugekiNoSoma #食戟のソーマ #餐之皿 #Season4 #第四季 #料理 #food #校園 #school #動漫 #Anime"
+          },
+          "zh-Hans": {
+            "title": "《食戟之灵 神之皿》#10 (简中字幕 | 日语原声)【Ani-One Asia】",
+            "description": "🍳《食戟之灵 神之皿》登陆 Ani-One Asia YouTube！\n自从薙切蓟就任「远月茶寮料理学园」的新总帅之后，学生的自由受到了抑制。为了摆脱困境，创真等人组成了反叛者队，和新的远月十杰展开了联队食戟，并在初战中获得了胜利！现在，第二轮对战即将拉开帷幕…！\n\n🍚《食戟之灵》播放清单：\n• 第二季：https://www.youtube.com/playlist?list=PLxSscENEp7JjC6Atr2SaYeVJyC1kkzQOa\n• 第三季：https://www.youtube.com/playlist?list=PLxSscENEp7JhUcNUJC6NNywV0J5bnQ9Ew\n• 第四季：https://www.youtube.com/playlist?list=PLxSscENEp7JgoLSAuimgmaCHHlUaua69k\n\n🌎播出地区：\n孟加拉国、不丹、文莱、柬埔寨、斐济、香港、印度、印度尼西亚、哈萨克斯坦、吉尔吉斯斯坦、老挝、澳门、马来西亚、马尔代夫、马绍尔群岛、密克罗尼西亚、蒙古、缅甸、瑙鲁、尼泊尔、新喀里多尼亚、巴基斯坦、帕劳、巴布亚 新几内亚、菲律宾、萨摩亚、新加坡、所罗门群岛、斯里兰卡、台湾、泰国、东帝汶、汤加、图瓦卢、瓦努阿图、越南\n\n*本日语原声动画提供多语言CC字幕以供选择。\n=========================================\n📢Support Ani-One Asia📢\n🖥 YouTube: https://www.youtube.com/AniOneAsia\n🖼 Instagram: https://www.instagram.com/anioneasia/\n🌏 Ani-One Asia: https://www.facebook.com/ani1Asia\n🌏 Ani-One Taiwan: https://www.facebook.com/ani1TW/\n🌏 Ani-One (中文): https://www.facebook.com/ani1anime\n\n#AniOne #FoodWars #食戟之灵 #ShokugekiNoSoma #食戟のソーマ #餐之皿 #Season4 #第四季 #料理 #food #校园 #school #动漫 #Anime"
+          },
+          "en": {
+            "title": "《Food Wars! Shokugeki no Soma - The Fourth Plate》#10 (ENG sub | JP dub)【Ani-One Asia】",
+            "description": "🍳《Food Wars! Shokugeki no Soma - The Fourth Plate》arrives on Ani-One Asia YouTube channel! \nSince Azami Nakiri has become the new director of the Totsuki Institute, students are no longer allowed to cook freely, and Soma and his friends are labeled as rebels. In order to breakthrough this situation, they challenge the new Council members to a Régiment du Cuisine! The 2nd bout of battle is about to begin…!\n\n🍚《Food Wars! Shokugeki no Soma》playlists：\n• S2：https://www.youtube.com/playlist?list=PLxSscENEp7JjC6Atr2SaYeVJyC1kkzQOa\n• S3：https://www.youtube.com/playlist?list=PLxSscENEp7JhUcNUJC6NNywV0J5bnQ9Ew\n• S4：https://www.youtube.com/playlist?list=PLxSscENEp7JgoLSAuimgmaCHHlUaua69k\n\n🌎Streaming Territories:\nBangladesh, Bhutan, Brunei, Cambodia, Fiji, Hong Kong, India, Indonesia, Kazakhstan, Kyrgyzstan, Laos, Macau, Malaysia, Maldives, Marshall Islands, Micronesia, Mongolia, Myanmar, Nauru, Nepal, New Caledonia, Pakistan, Palau, Papua New Guinea, Philippines, Samoa, Singapore, Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu, Vanuatu, Vietnam.\n\n**Japanese dubbing with CC subtitles available.\n=========================================\n📢Support Ani-One Asia📢\n🖥 YouTube: https://www.youtube.com/AniOneAsia\n🖼 Instagram: https://www.instagram.com/anioneasia/\n🌏 Ani-One Asia: https://www.facebook.com/ani1Asia\n🌏 Ani-One Taiwan: https://www.facebook.com/ani1TW/\n🌏 Ani-One (中文): https://www.facebook.com/ani1anime\n\n#AniOne #FoodWars #食戟之靈 #ShokugekiNoSoma #食戟のソーマ #餐之皿 #Season4 #第四季 #料理 #food #校園 #school #動漫 #Anime"
+          },
+          "zh-Hant": {
+            "title": "《食戟之靈 神之皿》#10 (繁中字幕 | 日語原聲)【Ani-One Asia】",
+            "description": "🍳《食戟之靈 神之皿》登陸Ani-One Asia YouTube！\n自從薙切薊就任「遠月茶寮料理學園」的新總帥之後，學生的自由受到了抑制。為了擺脫困境，創真等人組成了反叛者隊，和新的遠月十傑展開了聯隊食戟，並在初戰中獲得了勝利！現在，第二輪對戰即將拉開帷幕…！ \n\n🍚《食戟之靈》播放清單：\n• 第二季：https://www.youtube.com/playlist?list=PLxSscENEp7JjC6Atr2SaYeVJyC1kkzQOa\n• 第三季：https://www.youtube.com/playlist?list=PLxSscENEp7JhUcNUJC6NNywV0J5bnQ9Ew\n• 第四季：https://www.youtube.com/playlist?list=PLxSscENEp7JgoLSAuimgmaCHHlUaua69k\n\n🌎播出地區：\n孟加拉國、不丹、文萊、柬埔寨、斐濟、香港、印度、印度尼西亞、哈薩克斯坦、吉爾吉斯斯坦、老撾、澳門、馬來西亞、馬爾代夫、馬紹爾群島、密克羅尼西亞、蒙古、緬甸、瑙魯、尼泊爾、新喀裡多尼亞、巴基斯坦、帕勞、巴布亞 新幾內亞、菲律賓、薩摩亞、新加坡、所羅門群島、斯里蘭卡、台灣、泰國、東帝汶、湯加、圖瓦盧、瓦努阿圖、越南\n\n*本日語原聲動畫提供多語言CC字幕以供選擇。\n=========================================\n📢Support Ani-One Asia📢\n🖥 YouTube: https://www.youtube.com/AniOneAsia\n🖼 Instagram: https://www.instagram.com/anioneasia/\n🌏 Ani-One Asia: https://www.facebook.com/ani1Asia\n🌏 Ani-One Taiwan: https://www.facebook.com/ani1TW/\n🌏 Ani-One (中文): https://www.facebook.com/ani1anime\n\n#AniOne #FoodWars #食戟之靈 #ShokugekiNoSoma #食戟のソーマ #餐之皿 #Season4 #第四季 #料理 #food #校園 #school #動漫 #Anime"
+          }
+        }
+      }
+    ],
+    "pageInfo": {
+      "totalResults": 1,
+      "resultsPerPage": 1
+    }
+  },
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+    "cache-control": "private",
+    "connection": "close",
+    "content-encoding": "gzip",
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Sun, 18 Sep 2022 04:01:21 GMT",
+    "server": "scaffolding on HTTPServer2",
+    "transfer-encoding": "chunked",
+    "vary": "Origin, X-Origin, Referer",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "0"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "request": {
+    "responseURL": "https://youtube.googleapis.com/youtube/v3/videos?part=contentDetails%2Cid%2CliveStreamingDetails%2Clocalizations%2Cplayer%2CrecordingDetails%2Csnippet%2Cstatistics%2Cstatus%2CtopicDetails&id=c0aD8K5xY2o&key=AIzaSyCLyYGeWMxoG8fxBpRUfqJ73CdCWThE-Zc"
+  }
+}

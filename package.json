@@ -1,0 +1,21 @@
+{
+  "name": "ani-mega-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.1.0",
+    "dotenv": "^16.0.2",
+    "googleapis": "^107.0.0",
+    "mongoose": "^6.6.1",
+    "node-telegram-bot-api": "^0.59.0"
+  }
+}
