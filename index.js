@@ -13,7 +13,7 @@ telegram.initTelegramBot();
 mongoose.connect(`mongodb://${process.env.DB_HOST}/${process.env.DB_NAME}`)
   .then(() => {
     const jobMuseAsia = new CronJob(
-      '* * * * *',
+      '* */1 * * *',
       async () => {
         const videos = await getVideosByChannelId(MUSE_ASIA_CHANNEL_ID);
         for (const video of videos.items.reverse()) {
@@ -41,7 +41,7 @@ mongoose.connect(`mongodb://${process.env.DB_HOST}/${process.env.DB_NAME}`)
     );
     
     const jobAniOne = new CronJob(
-      '* * * * *',
+      '* */1 * * *',
       async () => {
         const videos = await getVideosByChannelId(ANI_ONE_CHANNEL_ID);
         for (const video of videos.items.reverse()) {
